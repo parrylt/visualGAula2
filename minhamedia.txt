@@ -1,0 +1,16 @@
+nome, sobrenome: caracter
+N1, N2, N3, media: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva ("Digite o seu nome: ")
+leia (nome)
+limpatela
+escreva(nome, " digite a N1: ")
+leia(N1)
+escreva(nome, " digite a N2: ")
+leia(N2)
+escreva(nome, " digite a N3: ")
+leia(N3)
+media<- (N1+N2+N3)/3
+escreval(nome, " sua média é de: ", media:6:2)

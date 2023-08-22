@@ -1,0 +1,42 @@
+Algoritmo "raiz quadrada"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 09/02/2023
+Var
+// Seção de Declarações das variáveis 
+n01, n02, n03, n04, n05, n1, n2, n3, n4, n5: real
+
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+escreval ("Digite o primeiro número: ")
+leia (n1)
+escreval ("Digite o segundo número: ")
+leia (n2)
+escreval ("Digite o terceiro número: ")
+leia (n3)
+escreval ("Digite o quarto número: ")
+leia (n4)
+escreval ("Digite o quinto número: ")
+leia (n5)
+limpatela
+
+n01 <- n1*n1
+n02 <- n2*n2
+n03 <- n3*n3
+n04 <- n4*n4
+n05 <- n5*n5
+
+escreval ("Raiz quadrada do 1º número: ", n01)
+escreval ("Raiz quadrada do 2º número: ", n02)
+escreval ("Raiz quadrada do 3º número: ", n03)
+escreval ("Raiz quadrada do 4º número: ", n04)
+escreval ("Raiz quadrada do 5º número: ", n05)
+
+//escreval ("A raiz quadrada de cada número digitado é: ", "1º número: ", n01, "/ 2º número: ", n02, "/ 3º número: ", n03, "/ 4º número: ", n04, "/ 5º número: ", n05)
+Fimalgoritmo
